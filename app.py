@@ -93,7 +93,7 @@ st.markdown(
 # ==========================================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("salaries.csv")
+    df = pd.read_csv("/content/salaries.csv")
     return df
 
 try:
